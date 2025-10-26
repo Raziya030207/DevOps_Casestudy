@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ZenTask - Focus. Create. Complete.</title>
+
+  <!-- Fonts & Icons -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="main.css" />
+</head>
+<body>
+  <main>
+    <div class="app">
+      <div class="logo">
+        <div class="logo-icon">
+          <span class="material-icons">self_improvement</span>
+        </div>
+        <div class="logo-text">
+          <h1>ZenTask</h1>
+          <p>Focus • Create • Complete</p>
+        </div>
+      </div>
+
+      <header>
+        <div class="add-section">
+          <input id="todo-input" type="text" placeholder="Enter a new task..." />
+          <button id="create"><span class="material-icons">add</span> Add Task</button>
+        </div>
+      </header>
+
+      <div class="stats">
+        <p><span id="completed-count">0</span> / <span id="total-count">0</span> tasks completed</p>
+      </div>
+
+      <div class="todo-list" id="list"></div>
+    </div>
+  </main>
+
+  <script src="main.js"></script>
+</body>
+</html>
